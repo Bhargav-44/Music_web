@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li id="0" class = "brand"><img src = "images/spotify logo.png" alt = "Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best Songs</h1>
+            <div>
+                <div class="songitem">
+                    <img src="covers/cover1.jpg" alt="1">
+                    <span>Night Changes</span>
+                    <span class="songlistplay"><span class="timestamp">04:00 <i id="0" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover2.jpg" alt="1">
+                    <span>Shinunoga E-Wa</span>
+                    <span class="songlistplay"><span class="timestamp">03:05 <i id="1" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover3.jpg" alt="1">
+                    <span>Bones</span>
+                    <span class="songlistplay"><span class="timestamp">02:45 <i id="2" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover4.jpg" alt="1">
+                    <span>Best Song Ever</span>
+                    <span class="songlistplay"><span class="timestamp">03:22 <i id="3" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <div class="songitem">
+                    <img src="covers/cover5.jpg" alt="1">
+                    <span>Cradles</span>
+                    <span class="songlistplay"><span class="timestamp">03:29 <i id="4" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <!-- <div class="songitem">
+                    <img src="bones.jpg" alt="1">
+                    <span>Bones</span>
+                    <span class="songlistplay"><span class="timestamp">02:45 <i id="3" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <div class="songitem">
+                    <img src="bones.jpg" alt="1">
+                    <span>Bones</span>
+                    <span class="songlistplay"><span class="timestamp">02:45 <i id="3" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div>
+                <div class="songitem">
+                    <img src="fuji.jpg" alt="1">
+                    <span>Shinunoga E-Wa</span>
+                    <span class="songlistplay"><span class="timestamp">03:05 <i id="2" class="fa-regular songitemplay fa-circle-play"></i> </span></span> 
+                </div> -->
+
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgessBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-sharp fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="images/playing.gif" width="42px" alt="" id="gif"> <span id="mastersong"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7a19b635ce.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
